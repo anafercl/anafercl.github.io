@@ -1,0 +1,23 @@
+<h3>Logros y Certificados</h3>
+<ul *ngFor="let achievement of certificates">
+    <li style="display: table;">
+        <tr>
+            <td>{{ achievement.fecha }}</td>
+            <td style="text-align:right">{{ achievement.ubicacion }}</td>
+        </tr>
+        <tr>
+            <td>{{ achievement.logro }}</td>
+        </tr>
+        <tr>
+            <td>{{ achievement.otorga }}</td>
+        </tr>
+
+        <h4>Descripción:</h4>
+
+        <tr>
+            {{ achievement.descripcion }}
+        </tr>
+
+        
+    </li>
+</ul>

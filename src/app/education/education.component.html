@@ -1,0 +1,15 @@
+<h3>Educación</h3>
+<ul *ngFor="let school of educationExperience">
+    <li style="display: table">
+        <tr>
+            <td>{{ school.fecha }}</td>
+            <td style="text-align:right">{{ school.ubicacion }}</td>
+        </tr>
+        <tr>
+            <td>{{ school.estudios }}</td>
+        </tr>
+        <tr>
+            <td>{{ school.escuela }}</td>
+        </tr>
+    </li>
+</ul>
