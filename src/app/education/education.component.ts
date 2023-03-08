@@ -23,7 +23,7 @@ export class EducationComponent {
       fecha : "Aug 2017 - Jun 2020",
       ubicacion : "Mexicali, B.C.",
       estudios : "Bachillerato",
-      escuela : "Centro de Enseñanza Téncica y Superior (CETYS)",
+      escuela : "Centro de Enseñanza Técnica y Superior (CETYS)",
   };
     
   this.educationExperience.push(school1);

@@ -1,12 +1,13 @@
 <h3>Experiencia laboral</h3>
-<ul *ngFor="let work of workExperience">
+<ul *ngFor="let work of workExperience" class="component">
+    <hr>
     <li style="display: table">
         <tr>
             <td>{{ work.fecha }}</td>
             <td style="text-align:right">{{ work.ubicacion }}</td>
         </tr>
         <tr>
-            <td>{{ work.puesto }}</td>
+            <td><b>{{ work.puesto }}</b></td>
         </tr>
         <tr>
             <td>{{ work.empresa }}</td>

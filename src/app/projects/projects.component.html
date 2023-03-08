@@ -1,12 +1,13 @@
 <h3>Proyectos</h3>
-<ul *ngFor="let project of projectsExperience">
+<ul *ngFor="let project of projectsExperience" class="component">
+    <hr>
     <li style="display: table">
         <tr>
             <td>{{ project.fecha }}</td>
             <td style="text-align:right">{{ project.ubicacion }}</td>
         </tr>
         <tr>
-            <td>{{ project.nombre }}</td>
+            <td><b>{{ project.nombre }}</b></td>
         </tr>
         <tr>
             <td>{{ project.empresa }}</td>
